@@ -34,7 +34,6 @@ public class OrderTests {
         driver.findElement(By.xpath("(//button[@type='submit'])[3]")).click();
 
   //Wait and pause period
-        Thread.sleep(5000);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
